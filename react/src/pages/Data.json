@@ -1,0 +1,14 @@
+{
+  "name": "김정민",
+  "birthday": "2000 . 01 . 18",
+  "age": "24살",
+  "hobby": ["게임", "축구", "야구"],
+  "id": "60192179",
+  "department": "컴퓨터공학과",
+  "part": "WEB",
+  "mbti": "ESFJ",
+  "special": [
+    { "title": "안녕", "content": "반가워요" },
+    { "title": "배고파", "content": "배고파요" }
+  ]
+}
