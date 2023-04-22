@@ -8,15 +8,17 @@ import "./reset.css";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/hello" element={<Hello />} />
-        <Route path="/reason" element={<Reason />} />
-        <Route path="/hobby" element={<Hobby />} />
-        <Route path="/resolution" element={<Resolution />} />
-      </Routes>
-    </BrowserRouter>
+    <>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main />} />
+          <Route path="/hello" element={<Hello />} />
+          <Route path="/reason" element={<Reason />} />
+          <Route path="/hobby" element={<Hobby />} />
+          <Route path="/resolution" element={<Resolution />} />
+        </Routes>
+      </BrowserRouter>
+    </>
   );
 }
 

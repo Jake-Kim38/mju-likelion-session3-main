@@ -13,28 +13,31 @@ const ReasonContent = (props) => {
     reason,
     hobby,
     resolution,
+    return_home,
   } = props.data;
   return (
-    <div class="myintro">
-      <div className="reasonMenu">
-        <Link to="/hello">{introduce}</Link>
-        <Link to="/reason">{reason}</Link>
-        <Link to="/hobby">{hobby}</Link>
-        <Link to="/resolution">{resolution}</Link>
-        <Link to="/">홈으로</Link>
-      </div>
-      <div class="first">
-        <img src={src1} alt="face" />
-        <div class="myarticle">
-          <div class="myTitleText">{first_reason_main}</div>
-          <div class="myMainText">{first_reason_text}</div>
+    <div className="reasonBody">
+      <div class="myintro">
+        <div className="reasonMenu">
+          <Link to="/hello">{introduce}</Link>
+          <Link to="/reason">{reason}</Link>
+          <Link to="/hobby">{hobby}</Link>
+          <Link to="/resolution">{resolution}</Link>
+          <Link to="/">{return_home}</Link>
         </div>
-      </div>
-      <div class="second">
-        <img src={src2} alt="face" />
-        <div class="myarticle">
-          <div class="myTitleText">{second_reason_main}</div>
-          <div class="myMainText">{second_reason_text}</div>
+        <div class="first">
+          <img src={src1} alt="face" />
+          <div class="myarticle">
+            <div class="myTitleText">{first_reason_main}</div>
+            <div class="myMainText">{first_reason_text}</div>
+          </div>
+        </div>
+        <div class="second">
+          <img src={src2} alt="face" />
+          <div class="myarticle">
+            <div class="myTitleText">{second_reason_main}</div>
+            <div class="myMainText">{second_reason_text}</div>
+          </div>
         </div>
       </div>
     </div>

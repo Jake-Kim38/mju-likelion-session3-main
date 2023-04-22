@@ -4,9 +4,9 @@ import Data from "../Data.json";
 
 const Reason = () => {
   return (
-    <>
+    <div className="reasonBody">
       <ReasonContent data={Data} />
-    </>
+    </div>
   );
 };
 

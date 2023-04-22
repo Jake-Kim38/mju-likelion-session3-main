@@ -3,8 +3,15 @@ import src from "../img/imo2.jpg";
 import { Link } from "react-router-dom";
 
 const HelloContent = (props) => {
-  const { title_text, main_text, introduce, reason, hobby, resolution } =
-    props.data;
+  const {
+    title_text,
+    main_text,
+    introduce,
+    reason,
+    hobby,
+    resolution,
+    return_home,
+  } = props.data;
   return (
     <div>
       <div className="main__introduce">
@@ -18,7 +25,7 @@ const HelloContent = (props) => {
           <Link to="/reason">{reason}</Link>
           <Link to="/hobby">{hobby}</Link>
           <Link to="/resolution">{resolution}</Link>
-          <Link to="/">홈으로</Link>
+          <Link to="/">{return_home}</Link>
         </div>
       </div>
     </div>
