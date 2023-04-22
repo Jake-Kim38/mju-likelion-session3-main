@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap");
+
+.resolutionBody {
+  width: 100%;
+  height: 100%;
+  background: -webkit-linear-gradient(360deg, #030303 10%, #1f1f1f 360%);
+}
+
+.resolutionMain {
+  font-family: "Sunflower", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  bottom: 0;
+  width: 100%;
+  height: 100vh;
+  color: white;
+  white-space: pre-wrap;
+}
+
+.resolutionTitle {
+  font-family: "Stylish", sans-serif;
+  font-size: 3.5rem;
+  text-decoration: underline;
+  text-underline-position: under;
+  font-weight: 600;
+  text-shadow: 10px 10px 25px rgb(197, 188, 158),
+    -10px 10px 25px rgb(91, 82, 53), -10px -10px 25px rgb(76, 68, 41),
+    10px -10px 25px rgb(88, 78, 45);
+  animation: fadeIn 1s ease-in-out forwards;
+  opacity: 0;
+}
+
+.resolutionContent {
+  font-family: "East Sea Dokdo", cursive;
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 6vh;
+  animation: fade 1s ease-in-out forwards;
+  opacity: 0;
+  animation-delay: 1s;
+}
+
+@keyframes fadeIn {
+  from {
+    transform: translateY(5vh);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.resolMenu {
+  font-family: "Jua", sans-serif;
+  display: flex;
+  justify-content: space-evenly;
+  width: 200vh;
+  position: absolute;
+  top: 3%;
+}
+
+.resolMenu a {
+  text-decoration: none;
+  color: white;
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
+  transition: color 1s;
+}
+
+.resolMenu a:hover {
+  color: #eba946;
+}

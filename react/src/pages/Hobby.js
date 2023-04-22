@@ -1,9 +1,11 @@
-const Hobby = (props) => {
+import HobbyContent from "../pages/HobbyContent";
+import "../reset.css";
+import Data from "../Data.json";
+
+const Hobby = () => {
   return (
     <>
-      <div className={props.isDark ? "hobbyContentDarkMode" : "hobbyContent"}>
-        {props.data}
-      </div>
+      <HobbyContent data={Data} />
     </>
   );
 };
