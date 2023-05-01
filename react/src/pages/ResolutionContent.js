@@ -19,7 +19,7 @@ const ResolutionContent = (props) => {
           <Link to="/reason">{reason}</Link>
           <Link to="/hobby">{hobby}</Link>
           <Link to="/resolution">{resolution}</Link>
-          <Link to="/">{return_home}</Link>
+          <Link to="/home">{return_home}</Link>
         </div>
         <div class="resolutionTitle">{resolution_title}</div>
         <div class="resolutionContent">{resolution_content}</div>

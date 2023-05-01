@@ -25,7 +25,7 @@ const HelloContent = (props) => {
           <Link to="/reason">{reason}</Link>
           <Link to="/hobby">{hobby}</Link>
           <Link to="/resolution">{resolution}</Link>
-          <Link to="/">{return_home}</Link>
+          <Link to="/home">{return_home}</Link>
         </div>
       </div>
     </div>
