@@ -1,7 +1,7 @@
 import Data from "../Data.json";
 import Intro from "../pages/intro";
 
-const home = () => {
+const Home = () => {
   return (
     <>
       <Intro data={Data} />
@@ -9,4 +9,4 @@ const home = () => {
   );
 };
 
-export default home;
+export default Home;

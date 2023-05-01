@@ -17,31 +17,31 @@ const HobbyContent = (props) => {
   } = props.data;
   return (
     <div className="hobbyBody">
-      <div class="main__area">
+      <div className="main__area">
         <div className="HobbyMenu">
           <Link to="/hello">{introduce}</Link>
           <Link to="/reason">{reason}</Link>
           <Link to="/hobby">{hobby}</Link>
           <Link to="/resolution">{resolution}</Link>
-          <Link to="/">{return_home}</Link>
+          <Link to="/home">{return_home}</Link>
         </div>
-        <div class="first__specific__area">
+        <div className="first__specific__area">
           <div>
-            <img src={src1} alt="face" />
+            <img src={src1} alt="html/css" />
           </div>
-          <div class="text">{first_hobby_text}</div>
+          <div className="text">{first_hobby_text}</div>
         </div>
-        <div class="second__specific__area">
+        <div className="second__specific__area">
           <div>
-            <img src={src2} alt="face" />
+            <img src={src2} alt="together" />
           </div>
-          <div class="text">{second_hobby_text}</div>
+          <div className="text">{second_hobby_text}</div>
         </div>
-        <div class="third__specific__area">
+        <div className="third__specific__area">
           <div>
-            <img src={src3} alt="face" />
+            <img src={src3} alt="shy" />
           </div>
-          <div class="text">{third_hobby_text}</div>
+          <div className="text">{third_hobby_text}</div>
         </div>
       </div>
     </div>
